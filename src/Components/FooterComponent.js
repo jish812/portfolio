@@ -1,13 +1,12 @@
 import React from "react";
 import {
   Footer,
-  FooterSection,
   FooterDropDownSection,
   FooterLinkList,
   FooterSection,
 } from "react-mdl";
 
-export default function Footer() {
+export default function FooterComponent() {
   return (
     <div>
       <Footer size="mega">
