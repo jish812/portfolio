@@ -9,9 +9,14 @@ export default class LandingPage extends Component {
       <div style={{ width: "100%", margin: "auto" }}>
         <Grid className="landing-grid">
           <Cell col={12}>
-            <img src={ProfilePic} alt="profile-picture" className="p-picture" />
+            <img
+              src={ProfilePic}
+              alt="profile-picture"
+              className="p-picture"
+              style={{ display: "block", alignItems: "center" }}
+            />
             <div className="banner-text">
-              <h1>Hi,I'm Jishnu</h1>
+              <h1>Jishnu</h1>
               <p>CS Undergrade | Coder | React-DEV | AI/ML</p>
 
               <div className="social-links">
