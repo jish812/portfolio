@@ -11,7 +11,62 @@ export default class LandingPage extends Component {
           <Cell col={12}>
             <img src={ProfilePic} alt="profile-picture" className="p-picture" />
             <div className="banner-text">
-              <h1 className="banner-text-h1">Hi,I'm Jishnu</h1>
+              <h1>Hi,I'm Jishnu</h1>
+              <p>CS Undergrade | Coder | React-DEV | AI/ML</p>
+
+              <div className="social-links">
+                {/*Linkedin*/}
+                <a
+                  href="https://www.linkedin.com/in/jishnu-suresh-385516168/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i
+                    className="fa fa-linkedin-square"
+                    rel="noopener noreferrer"
+                    aria-hidden="true"
+                  />
+                </a>
+
+                {/*Github*/}
+                <a
+                  href="https://github.com/jish812"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i
+                    className="fa fa-github-square"
+                    rel="noopener noreferrer"
+                    aria-hidden="true"
+                  />
+                </a>
+
+                {/*Free Code Camp*/}
+                <a
+                  href="https://github.com/jish812"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i
+                    className="fa fa-free-code-camp-square"
+                    rel="noopener noreferrer"
+                    aria-hidden="true"
+                  />
+                </a>
+
+                {/*Youtube*/}
+                <a
+                  href="https://github.com/jish812"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i
+                    className="fa fa-youtube-square"
+                    rel="noopener noreferrer"
+                    aria-hidden="true"
+                  />
+                </a>
+              </div>
             </div>
           </Cell>
         </Grid>
