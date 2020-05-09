@@ -9,12 +9,20 @@ export default function App() {
     <React.Fragment>
       <div className="demo-big-content">
         <Layout>
-          <Header title="Title" scroll>
+          <Header className="header-color" title="my page" scroll>
             <Navigation>
-              <Link to="/resume">Resume</Link>
-              <Link to="/about">About Me</Link>
-              <Link to="/project">Project</Link>
-              <Link to="/contact">Contact</Link>
+              <Link className="top-nav" to="/resume">
+                Resume
+              </Link>
+              <Link className="top-nav" to="/about">
+                About Me
+              </Link>
+              <Link className="top-nav" to="/project">
+                Project
+              </Link>
+              <Link className="top-nav" to="/contact">
+                Contact
+              </Link>
             </Navigation>
           </Header>
           <Drawer title="Title">
