@@ -48,7 +48,7 @@ export default class LandingPage extends Component {
                   rel="noopener noreferrer"
                 >
                   <i
-                    className="fa fa-free-code-camp-square"
+                    className="fa fa-free-code-camp"
                     rel="noopener noreferrer"
                     aria-hidden="true"
                   />
