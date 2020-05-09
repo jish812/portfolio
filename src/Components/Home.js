@@ -9,7 +9,7 @@ export default function Home() {
     <React.Fragment>
       <div className="demo-big-content">
         <Layout>
-          <Header className="header-color" title="my page" scroll>
+          <Header className="header-color" title={<h1></h1>} scroll>
             <Navigation>
               <Link className="top-nav" to="/resume">
                 Resume

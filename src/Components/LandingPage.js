@@ -10,6 +10,9 @@ export default class LandingPage extends Component {
         <Grid className="landing-grid">
           <Cell col={12}>
             <img src={ProfilePic} alt="profile-picture" className="p-picture" />
+            <div className="banner-text">
+              <h1 className="banner-text-h1">Hi,I'm Jishnu</h1>
+            </div>
           </Cell>
         </Grid>
       </div>

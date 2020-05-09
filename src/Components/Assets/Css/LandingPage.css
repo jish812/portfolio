@@ -2,7 +2,21 @@
   height: 275px;
   width: 275px;
   border-radius: 50%;
-  margin-top: 3em;
-  margin-left: 37%;
+  margin-top: 2em;
+  margin-left: 45%;
   margin-right: 50%;
+}
+.banner-text {
+  background-color: black;
+  opacity: 0.2;
+  width: 100;
+  margin: auto;
+  border-radius: 10px;
+}
+.banner-text-h1 {
+  font-size: 70px;
+  font-weight: lighter;
+  color: rgb(233, 233, 233);
+  font-family: Ubuntu;
+  margin-left: 42%;
 }
