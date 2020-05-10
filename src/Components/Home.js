@@ -15,16 +15,16 @@ export default function Home() {
             scroll
           >
             <Navigation>
-              <Link className="top-nav" to="/resume">
+              <Link className="top-nav" to="/portfolio/resume">
                 Resume
               </Link>
-              <Link className="top-nav" to="/about">
+              <Link className="top-nav" to="/portfolio/about">
                 About Me
               </Link>
-              <Link className="top-nav" to="/project">
+              <Link className="top-nav" to="/portfolio/project">
                 Project
               </Link>
-              <Link className="top-nav" to="/contact">
+              <Link className="top-nav" to="/portfolio/contact">
                 Contact
               </Link>
             </Navigation>
@@ -37,16 +37,16 @@ export default function Home() {
             }
           >
             <Navigation>
-              <Link className="top-nav" to="/resume">
+              <Link className="top-nav" to="/portfolio/resume">
                 Resume
               </Link>
-              <Link className="top-nav" to="/about">
+              <Link className="top-nav" to="/portfolio/about">
                 About Me
               </Link>
-              <Link className="top-nav" to="/project">
+              <Link className="top-nav" to="/portfolio/project">
                 Project
               </Link>
-              <Link className="top-nav" to="/contact">
+              <Link className="top-nav" to="/portfolio/contact">
                 Contact
               </Link>
             </Navigation>

@@ -11,10 +11,10 @@ const Main = () => {
     <div>
       <Switch>
         <Route exact path="/portfolio" exact component={LandingPage} />
-        <Route exact path="/contact" exact component={Contact} />
-        <Route exact path="/about" exact component={About} />
-        <Route exact path="/project" exact component={Project} />
-        <Route exact path="/resume" exact component={Resume} />
+        <Route exact path="/portfolio/contact" exact component={Contact} />
+        <Route exact path="/portfolio/about" exact component={About} />
+        <Route exact path="/portfolio/project" exact component={Project} />
+        <Route exact path="/portfolio/resume" exact component={Resume} />
       </Switch>
     </div>
   );
