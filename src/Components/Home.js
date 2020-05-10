@@ -9,7 +9,11 @@ export default function Home() {
     <React.Fragment>
       <div className="demo-big-content">
         <Layout>
-          <Header className="header-color" title={<Link to="/">i</Link>} scroll>
+          <Header
+            className="header-color"
+            title={<Link to="/portfolio">i</Link>}
+            scroll
+          >
             <Navigation>
               <Link className="top-nav" to="/resume">
                 Resume
@@ -27,7 +31,7 @@ export default function Home() {
           </Header>
           <Drawer
             title={
-              <Link className="top-nav" to="/">
+              <Link className="top-nav" to="/portfolio">
                 Portfolio
               </Link>
             }

@@ -10,7 +10,7 @@ const Main = () => {
   return (
     <div>
       <Switch>
-        <Route exact path="/" exact component={LandingPage} />
+        <Route exact path="/portfolio" exact component={LandingPage} />
         <Route exact path="/contact" exact component={Contact} />
         <Route exact path="/about" exact component={About} />
         <Route exact path="/project" exact component={Project} />
