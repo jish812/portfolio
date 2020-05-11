@@ -9,33 +9,47 @@ export default function Home() {
     <React.Fragment>
       <div className="demo-big-content">
         <Layout>
-          <Header transparent title="Title" style={{ color: "gray" }} scroll>
+          <Header
+            transparent
+            title={
+              <Link
+                style={{ color: "gray", fontFamily: "Ubuntu" }}
+                to="/portfolio"
+              >
+                Portfolio
+              </Link>
+            }
+            style={{ color: "gray", fontFamily: "Ubuntu", fontSize: "larger" }}
+            scroll
+          >
             <Navigation>
               <Link
-                syle={{ color: "gray" }}
-                className="top-nav"
+                style={{ color: "gray", fontFamily: "Ubuntu" }}
                 to="/portfolio/resume"
               >
                 Resume
               </Link>
-              <Link className="top-nav" to="/portfolio/about">
+              <Link
+                style={{ color: "gray", fontFamily: "Ubuntu" }}
+                to="/portfolio/about"
+              >
                 About Me
               </Link>
-              <Link className="top-nav" href="/portfolio/project">
+              <Link
+                style={{ color: "gray", fontFamily: "Ubuntu" }}
+                to="/portfolio/project"
+              >
                 Project
               </Link>
-              <Link className="top-nav" to="/portfolio/contact">
+              <Link
+                style={{ color: "gray", fontFamily: "Ubuntu" }}
+                to="/portfolio/contact"
+              >
                 Contact
               </Link>
             </Navigation>
           </Header>
-          <Drawer
-            title={
-              <Link className="top-nav" to="/portfolio">
-                Portfolio
-              </Link>
-            }
-          >
+          <Drawer title={<Link to="/portfolio">Portfolio</Link>}>
             <Navigation>
               <Link className="top-nav" to="/portfolio/resume">
                 Resume

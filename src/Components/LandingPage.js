@@ -48,27 +48,27 @@ export default class LandingPage extends Component {
                   />
                 </a>
 
-                {/*Free Code Camp*/}
+                {/*Twitter*/}
                 <a
-                  href="https://github.com/jish812"
+                  href="https://twitter.com/jish812"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
                   <i
-                    className="fa fa-free-code-camp"
+                    className="fa fa-twitter"
                     rel="noopener noreferrer"
                     aria-hidden="true"
                   />
                 </a>
 
-                {/*Youtube*/}
+                {/*instagram*/}
                 <a
-                  href="https://github.com/jish812"
+                  href="https://www.instagram.com/jishnnuu/?hl=en"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
                   <i
-                    className="fa fa-youtube-square"
+                    className="fa fa-instagram"
                     rel="noopener noreferrer"
                     aria-hidden="true"
                   />
