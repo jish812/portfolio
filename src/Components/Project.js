@@ -101,6 +101,81 @@ export default class Project extends Component {
               <IconButton name="share" />
             </CardMenu>
           </Card>
+
+          {/*project #4 */}
+          <Card shadow={5} style={{ width: "450", margin: "auto" }}>
+            <CardTitle
+              style={{
+                color: "gray",
+                height: "176px",
+                background:
+                  "url{https://w0.pngwave.com/png/856/564/react-logo-javascript-front-and-back-ends-user-interface-others-png-clip-art.png}center/cover",
+              }}
+            >
+              React Project #4
+            </CardTitle>
+            <CardText>
+              sDGadsgasdgADSGASGASGASGADSGADSGASGASGASGdwgaSDHDFGJSFHJAFHsdfjdsfjsdfghstyusgfhstu
+            </CardText>
+            <CardActions border>
+              <Button colored>Github</Button>
+              <Button colored>codePen</Button>
+              <Button colored>Live Demo</Button>
+            </CardActions>
+            <CardMenu style={{ color: "#fff" }}>
+              <IconButton name="share" />
+            </CardMenu>
+          </Card>
+
+          {/*project #5 */}
+          <Card shadow={5} style={{ width: "450", margin: "auto" }}>
+            <CardTitle
+              style={{
+                color: "gray",
+                height: "176px",
+                background:
+                  "url{https://w0.pngwave.com/png/856/564/react-logo-javascript-front-and-back-ends-user-interface-others-png-clip-art.png}center/cover",
+              }}
+            >
+              React Project #5
+            </CardTitle>
+            <CardText>
+              sDGadsgasdgADSGASGASGASGADSGADSGASGASGASGdwgaSDHDFGJSFHJAFHsdfjdsfjsdfghstyusgfhstu
+            </CardText>
+            <CardActions border>
+              <Button colored>Github</Button>
+              <Button colored>codePen</Button>
+              <Button colored>Live Demo</Button>
+            </CardActions>
+            <CardMenu style={{ color: "#fff" }}>
+              <IconButton name="share" />
+            </CardMenu>
+          </Card>
+
+          {/*project #6 */}
+          <Card shadow={5} style={{ width: "450", margin: "auto" }}>
+            <CardTitle
+              style={{
+                color: "gray",
+                height: "176px",
+                background:
+                  "url{https://w0.pngwave.com/png/856/564/react-logo-javascript-front-and-back-ends-user-interface-others-png-clip-art.png}center/cover",
+              }}
+            >
+              React Project #6
+            </CardTitle>
+            <CardText>
+              sDGadsgasdgADSGASGASGASGADSGADSGASGASGASGdwgaSDHDFGJSFHJAFHsdfjdsfjsdfghstyusgfhstu
+            </CardText>
+            <CardActions border>
+              <Button colored>Github</Button>
+              <Button colored>codePen</Button>
+              <Button colored>Live Demo</Button>
+            </CardActions>
+            <CardMenu style={{ color: "#fff" }}>
+              <IconButton name="share" />
+            </CardMenu>
+          </Card>
         </div>
       );
     } else if (this.state.activeTab === 1) {

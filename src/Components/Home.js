@@ -1,8 +1,11 @@
 import React from "react";
+import ReactDOM from "react-dom";
 import "./Assets/Css/Home.css";
 import { Navigation, Drawer, Content, Layout, Header } from "react-mdl";
 import Main from "./Main";
 import { Link } from "react-router-dom";
+import Contact from "./Contact";
+import LandingPage from "./LandingPage";
 
 export default function Home() {
   return (
@@ -20,7 +23,7 @@ export default function Home() {
               </Link>
             }
             style={{ color: "gray", fontFamily: "Ubuntu", fontSize: "larger" }}
-            scroll
+            fixed
           >
             <Navigation>
               <Link
