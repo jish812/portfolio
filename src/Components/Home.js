@@ -9,19 +9,19 @@ export default function Home() {
     <React.Fragment>
       <div className="demo-big-content">
         <Layout>
-          <Header
-            className="header-color"
-            title={<Link to="/portfolio">i</Link>}
-            scroll
-          >
+          <Header transparent title="Title" style={{ color: "gray" }} scroll>
             <Navigation>
-              <Link className="top-nav" to="/portfolio/resume">
+              <Link
+                syle={{ color: "gray" }}
+                className="top-nav"
+                to="/portfolio/resume"
+              >
                 Resume
               </Link>
               <Link className="top-nav" to="/portfolio/about">
                 About Me
               </Link>
-              <Link className="top-nav" to="/portfolio/project">
+              <Link className="top-nav" href="/portfolio/project">
                 Project
               </Link>
               <Link className="top-nav" to="/portfolio/contact">

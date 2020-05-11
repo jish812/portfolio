@@ -6,7 +6,7 @@ import "./Assets/Css/LandingPage.css";
 export default class LandingPage extends Component {
   render() {
     return (
-      <div style={{ width: "100%", margin: "auto" }}>
+      <div className="landingpage-wrap">
         <Grid className="landing-grid">
           <Cell col={12}>
             <div className="pp-div">
