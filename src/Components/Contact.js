@@ -22,17 +22,24 @@ export default class Contact extends Component {
           <Cell col={6}>
             <h2>Contact Me</h2>
             <hr />
-            <List>
-              <ListItem>
-                <ListItemContent icon="person">Bryan Cranston</ListItemContent>
-              </ListItem>
-              <ListItem>
-                <ListItemContent icon="person">Aaron Paul</ListItemContent>
-              </ListItem>
-              <ListItem>
-                <ListItemContent icon="person">Bob Odenkirk</ListItemContent>
-              </ListItem>
-            </List>
+            <div className="contact-list">
+              <List>
+                <ListItem>
+                  <ListItemContent
+                    style={{ fontSize: "20px", fontFamily: "Ubuntu" }}
+                  >
+                    <i clasName="fa fa-phone" aria-hidden="true" />
+                    >(+91) 6282198875
+                  </ListItemContent>
+                </ListItem>
+                <ListItem>
+                  <ListItemContent icon="person">Aaron Paul</ListItemContent>
+                </ListItem>
+                <ListItem>
+                  <ListItemContent icon="person">Bob Odenkirk</ListItemContent>
+                </ListItem>
+              </List>
+            </div>
           </Cell>
         </Grid>
       </div>
